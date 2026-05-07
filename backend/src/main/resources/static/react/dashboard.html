@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MediTrack React Dashboard</title>
+  <link rel="stylesheet" href="/css/site.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+<body>
+  <main class="page-shell">
+    <section class="page-banner">
+      <div>
+        <p class="eyebrow">Live Monitoring</p>
+        <h1>Operations Dashboard</h1>
+        <p>Track collection activity, route results, zone-level load, and current operational performance.</p>
+      </div>
+      <div class="page-actions">
+        <a class="pill-link" href="/">Back to home</a>
+        <a class="pill-link" href="/reports">View reports</a>
+      </div>
+    </section>
+    <section class="card">
+      <p class="lead">Live activity view for operational monitoring and route review.</p>
+      <div id="root"></div>
+    </section>
+  </main>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script type="text/babel" src="/react/app.js"></script>
+</body>
+</html>

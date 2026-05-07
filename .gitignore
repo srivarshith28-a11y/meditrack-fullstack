@@ -1,0 +1,8 @@
+.m2/
+
+backend/target/
+backend/spring-boot-out.log
+backend/spring-boot-err.log
+backend/maven-settings.xml
+
+*.class
